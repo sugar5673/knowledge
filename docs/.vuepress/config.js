@@ -9,14 +9,27 @@ module.exports = {
     base: '/', // 这是部署到github相关的配置
     serviceWorker: true, // 是否开启 PWA
     markdown: {
-        lineNumbers: false // 代码块显示行号
+        lineNumbers: true // 代码块显示行号
     },
     themeConfig: {
-      nav:[ // 导航栏配置
-        {text: '基础知识', link: '/accumulate/' },
-        {text: '题库', link: '/algorithm/'},   
-      ],
-      sidebar: 'auto', // 侧边栏配置
-      sidebarDepth: 2, // 侧边栏显示2级
+        nav: [ // 导航栏配置
+            { text: '小程序', link: '/applet/' },
+            // { text: 'Vue', link: '/Vue/' },
+        ],
+        // 侧边栏配置
+        sidebar: {
+            '/applet/': [
+                // '',
+                '小程序设计规范', /* /dev/ */
+                '小程序重构规范',
+                '如何做小程序',
+            ],
+            // '/Vue/': [
+            //     'Vue重构规范',
+            // ],
+            sidebarDepth: 2, // 侧边栏显示2级
+
+        }
+
     }
 };
