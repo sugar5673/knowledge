@@ -13,7 +13,7 @@ module.exports = {
     },
     themeConfig: {
         nav: [ // 导航栏配置
-            { text: '小程序', link: '/applet/' },
+            { text: '小程序', link: '/applet/小程序基础知识了解' },
             { text: 'markDown', link: '/markDown/' },
         ],
         // 侧边栏配置
@@ -22,7 +22,8 @@ module.exports = {
                 // '',
                 '小程序设计规范', /* /dev/ */
                 '小程序重构规范',
-                '如何做小程序',
+                '小程序基础知识了解',
+                '小程序开发指南',
             ],
             '/markDown/': [
                 '',
