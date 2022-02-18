@@ -14,7 +14,7 @@ module.exports = {
     themeConfig: {
         nav: [ // 导航栏配置
             { text: '小程序', link: '/applet/' },
-            // { text: 'Vue', link: '/Vue/' },
+            { text: 'markDown', link: '/markDown/' },
         ],
         // 侧边栏配置
         sidebar: {
@@ -24,9 +24,9 @@ module.exports = {
                 '小程序重构规范',
                 '如何做小程序',
             ],
-            // '/Vue/': [
-            //     'Vue重构规范',
-            // ],
+            '/markDown/': [
+                '',
+            ],
             sidebarDepth: 2, // 侧边栏显示2级
 
         }
