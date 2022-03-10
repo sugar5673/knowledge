@@ -1,4 +1,5 @@
 module.exports = {
+    dest: ".site",
     title: 'Summer',
     description: '相关知识点的记录',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
@@ -13,6 +14,7 @@ module.exports = {
     },
     themeConfig: {
         nav: [ // 导航栏配置
+            { text: 'VUE', link: '/vue/vue基础知识' },
             { text: '小程序', link: '/applet/小程序基础知识了解' },
             { text: 'markDown', link: '/markDown/' },
         ],
@@ -28,6 +30,9 @@ module.exports = {
             ],
             '/markDown/': [
                 '',
+            ],
+            '/vue/': [
+                'vue基础知识',
             ],
             sidebarDepth: 2, // 侧边栏显示2级
 
