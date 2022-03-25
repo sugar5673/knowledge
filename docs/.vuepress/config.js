@@ -1,5 +1,4 @@
 module.exports = {
-    dest: ".site",
     title: 'Summer',
     description: '相关知识点的记录',
     head: [ // 注入到当前页面的 HTML <head> 中的标签
