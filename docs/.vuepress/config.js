@@ -16,6 +16,7 @@ module.exports = {
             { text: 'VUE', link: '/vue/vue基础知识' },
             { text: '小程序', link: '/applet/小程序基础知识了解' },
             { text: 'markDown', link: '/markDown/' },
+            { text: 'PUBGM注意事项', link: '/pubgm/' },
         ],
         // 侧边栏配置
         sidebar: {
@@ -32,6 +33,9 @@ module.exports = {
             ],
             '/vue/': [
                 'vue基础知识',
+            ],
+            '/pubgm/': [
+                '',
             ],
             sidebarDepth: 2, // 侧边栏显示2级
 
